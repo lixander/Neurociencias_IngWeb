@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/05/2015 09:00:34 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.DispositivoDTO" table="DISPOSITIVODTO">
+        <id name="idDispositivo" type="int">
+            <column name="IDDISPOSITIVO" />
+            <generator class="assigned" />
+        </id>
+        <property name="tipoDispositivo" type="int">
+            <column name="TIPODISPOSITIVO" />
+        </property>
+        <property name="marcaDispositivo" type="int">
+            <column name="MARCADISPOSITIVO" />
+        </property>
+        <property name="estadoDispositivo" type="int">
+            <column name="ESTADODISPOSITIVO" />
+        </property>
+        <property name="fechaAdquisicion" type="java.util.Date">
+            <column name="FECHAADQUISICION" />
+        </property>
+        <property name="instrucciones" type="java.lang.String">
+            <column name="INSTRUCCIONES" />
+        </property>
+        <property name="descripcion" type="java.lang.String">
+            <column name="DESCRIPCION" />
+        </property>
+    </class>
+</hibernate-mapping>

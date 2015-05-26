@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/05/2015 09:00:34 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.UsuarioDTO" table="USUARIODTO">
+        <id name="idUsuario" type="int">
+            <column name="IDUSUARIO" />
+            <generator class="assigned" />
+        </id>
+        <property name="nroDocumento" type="int">
+            <column name="NRODOCUMENTO" />
+        </property>
+        <property name="tipoDocumento" type="int">
+            <column name="TIPODOCUMENTO" />
+        </property>
+        <property name="tipoUsuario" type="int">
+            <column name="TIPOUSUARIO" />
+        </property>
+        <property name="nombreUsuario" type="java.lang.String">
+            <column name="NOMBREUSUARIO" />
+        </property>
+        <property name="apellidoUsuario" type="java.lang.String">
+            <column name="APELLIDOUSUARIO" />
+        </property>
+        <property name="correo" type="java.lang.String">
+            <column name="CORREO" />
+        </property>
+        <property name="contrasena" type="java.lang.String">
+            <column name="CONTRASENA" />
+        </property>
+        <property name="telefonoContacto1" type="java.lang.String">
+            <column name="TELEFONOCONTACTO1" />
+        </property>
+        <property name="telefonoContacto2" type="java.lang.String">
+            <column name="TELEFONOCONTACTO2" />
+        </property>
+        <property name="fechaNacimientoUsuario" type="java.util.Date">
+            <column name="FECHANACIMIENTOUSUARIO" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/05/2015 09:00:34 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.MultaDTO" table="MULTADTO">
+        <id name="idMulta" type="int">
+            <column name="IDMULTA" />
+            <generator class="assigned" />
+        </id>
+        <property name="comentarios" type="java.lang.String">
+            <column name="COMENTARIOS" />
+        </property>
+        <property name="idPrestamo" type="int">
+            <column name="IDPRESTAMO" />
+        </property>
+        <property name="fechaCreacionMulta" type="java.util.Date">
+            <column name="FECHACREACIONMULTA" />
+        </property>
+        <property name="idTipoMulta" type="int">
+            <column name="IDTIPOMULTA" />
+        </property>
+        <property name="valorTotalMulta" type="float">
+            <column name="VALORTOTALMULTA" />
+        </property>
+        <property name="valorPagadoMulta" type="float">
+            <column name="VALORPAGADOMULTA" />
+        </property>
+        <property name="multaPagada" type="boolean">
+            <column name="MULTAPAGADA" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -10,6 +10,7 @@ import java.util.Date;
  *
  */
 public class PrestamoDTO {
+	private int idPrestamo;
 	private int idSolicitud;
 	private int idDispositivo;
 	private int estadoDispositivoEntrega;
@@ -18,6 +19,18 @@ public class PrestamoDTO {
 	private Date fechaSolicitudEntrega;
 	private Date fechaRealPrestamo;
 	private Date fechaRealEntrega;
+	/**
+	 * @return the idPrestamo
+	 */
+	public int getIdPrestamo() {
+		return idPrestamo;
+	}
+	/**
+	 * @return the idPrestamo
+	 */
+	public void setIdPrestamo(int idPrestamo) {
+		this.idPrestamo = idPrestamo;
+	}
 	/**
 	 * @return the idSolicitud
 	 */

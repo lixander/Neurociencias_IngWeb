@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/05/2015 09:05:55 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.PrestamoDTO" table="PRESTAMODTO">
+        <id name="idPrestamo" type="int">
+            <column name="IDPRESTAMO" />
+            <generator class="assigned" />
+        </id>
+        <property name="idSolicitud" type="int">
+            <column name="IDSOLICITUD" />
+        </property>
+        <property name="idDispositivo" type="int">
+            <column name="IDDISPOSITIVO" />
+        </property>
+        <property name="estadoDispositivoEntrega" type="int">
+            <column name="ESTADODISPOSITIVOENTREGA" />
+        </property>
+        <property name="fechaSolicitudPrestamo" type="java.util.Date">
+            <column name="FECHASOLICITUDPRESTAMO" />
+        </property>
+        <property name="fechaSolicitudEntrega" type="java.util.Date">
+            <column name="FECHASOLICITUDENTREGA" />
+        </property>
+        <property name="fechaRealPrestamo" type="java.util.Date">
+            <column name="FECHAREALPRESTAMO" />
+        </property>
+        <property name="fechaRealEntrega" type="java.util.Date">
+            <column name="FECHAREALENTREGA" />
+        </property>
+    </class>
+</hibernate-mapping>
