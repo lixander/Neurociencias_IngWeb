@@ -33,3 +33,33 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-26 08:21:56.900
 !MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.700
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/jta-1.1.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\jta-1.1.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.701
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/antlr-2.7.6.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\antlr-2.7.6.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.701
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/mysql-connector-java-5.1.22-bin.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\mysql-connector-java-5.1.22-bin.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.701
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\hibernate-jpa-2.0-api-1.0.1.Final.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.701
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/dom4j-1.6.1.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\dom4j-1.6.1.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.702
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/commons-collections-3.1.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\commons-collections-3.1.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.702
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/slf4j-api-1.6.1.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\slf4j-api-1.6.1.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.702
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/slf4j-log4j12-1.7.2.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\slf4j-log4j12-1.7.2.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.702
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/hibernate3.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\hibernate3.jar (El sistema no puede encontrar la ruta especificada)
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2015-05-26 08:42:49.702
+!MESSAGE Taglib Index IOException: D:/U de A/Udea Semestre 7/Ingeniería Web/Spring/LibreriasHibernate/LibreriasHibernate/javassist-3.12.0.GA.jar D:\U de A\Udea Semestre 7\Ingeniería Web\Spring\LibreriasHibernate\LibreriasHibernate\javassist-3.12.0.GA.jar (El sistema no puede encontrar la ruta especificada)

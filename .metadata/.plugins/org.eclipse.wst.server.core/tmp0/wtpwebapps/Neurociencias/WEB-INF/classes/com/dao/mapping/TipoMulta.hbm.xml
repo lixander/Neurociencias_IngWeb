@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated may 25, 2015 11:01:48 p.m. by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.neurociencias.TipoMulta" table="tipomulta">
+        <id name="idTipoMulta" type="java.lang.Integer">
+            <column name="idTipoMulta" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombreTipoMulta" type="java.lang.String">
+            <column name="nombreTipoMulta" />
+        </property>
+        <property name="descripcionMulta" type="java.lang.String">
+            <column name="descripcionMulta" />
+        </property>
+        <property name="diasMulta" type="int">
+            <column name="diasMulta" />
+        </property>
+        <property name="valorMultaDia" type="float" access="field">
+            <column name="valorMultaDia" />
+        </property>
+    </class>
+</hibernate-mapping>

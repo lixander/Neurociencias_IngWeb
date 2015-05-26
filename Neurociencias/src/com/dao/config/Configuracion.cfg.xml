@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory> <!-- Se especifican las caracteristicas de la conexión  -->
+		<!-- Dirección del driver dentro del proyecto  -->
+		<property name = "hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!--URL de conexión a la base de datos -->
+		<property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/neurocienciasdb</property>
+		 <!-- nombre para la conexión -->
+		<property name = "hibernate.connection.username">root</property>
+		<!-- contraseña para el conexión-->
+		<property name = "hibernate.connection.password"></property>
+		<!--Propiedad para mostrar las consultas-->
+		<property name = "show_sql">true</property>
+		<!-- Dialecto para MySQL--> 
+		<property name = "hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- Dirección donde se encuentra el mapping del objeto -->
+		<mapping resource="com/dao/mapping/MarcaDispositivo.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/Multa.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/TipoDocumento.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/TipoMulta.hbm.xml"></mapping>
+	</session-factory>
+</hibernate-configuration>

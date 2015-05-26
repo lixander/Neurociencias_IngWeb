@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Neurociencias/src/com/dao/config/Configuracion.cfg&apos; to &apos;Configuracion.cfg.xml&apos;" description="Rename resource &apos;Configuracion.cfg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/dao/config/Configuracion.cfg" name="Configuracion.cfg.xml" stamp="1432647461982" updateReferences="true"/>
+</session>
