@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.dto;
+package com.dto.neurociencias;
 
 /**
  * @author alexis
  *
  */
-public class TipoDocumentoDTO {
+public class TipoDocumento {
 
 	int idTipoDocumento;
 	String nombreTipoDocumento;

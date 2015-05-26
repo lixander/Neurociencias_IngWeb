@@ -1,4 +1,4 @@
-package com.dto;
+package com.dto.neurociencias;
 
 
 /**
@@ -7,7 +7,7 @@ package com.dto;
  *
  */
 
-public class TipoMultaDTO {
+public class TipoMulta {
 
 	int idTipoMulta;
 	String nombreTipoMulta;

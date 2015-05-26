@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated may 25, 2015 11:01:48 p.m. by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.neurociencias.MarcaDispositivo" table="marcadispositivo">
+        <id name="idMarcaDispositivo" type="java.lang.Integer">
+            <column name="idMarcaDispositivo" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombreMarcaDispositivo" type="java.lang.String">
+            <column name="nombreMarcaDispositivo" />
+        </property>
+    </class>
+</hibernate-mapping>
