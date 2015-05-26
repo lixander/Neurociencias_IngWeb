@@ -6,7 +6,7 @@ package com.dto;
  * 
  */
 
-public class TipoDispositivo {
+public class TipoDispositivoDTO {
 
 /**
 * Codigo del tipo de dispositivo 	

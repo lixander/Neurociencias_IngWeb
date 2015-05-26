@@ -6,7 +6,7 @@ package com.dto;
  * 
  */
 
-public class EstadoSolicitud {
+public class EstadoSolicitudDTO {
 
 /**
 * Codigo del estado de solicitud 	

@@ -8,7 +8,7 @@ package com.dto;
 
 import java.util.Date;
 
-public class Solicitud {
+public class SolicitudDTO {
 
 /**
  * Codigo de la solicitud 	

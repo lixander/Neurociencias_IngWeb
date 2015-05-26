@@ -6,7 +6,7 @@ package com.dto;
  * 
  */
 
-public class EstadoDispositivo {
+public class EstadoDispositivoDTO {
 
 /**
 * Codigo del estado de dispositivo 	

@@ -8,16 +8,14 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Hibernate2_Ing_Web/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/hibernate3.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/LibreriasHibernate/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
-	<classpathentry kind="lib" path="D:/U de A/Udea Semestre 7/Ingeniería Web/Librerias/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PINEDA/Downloads/LibreriasHibernate/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

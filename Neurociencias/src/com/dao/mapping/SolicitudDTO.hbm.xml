@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26/05/2015 12:02:38 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.dto.SolicitudDTO" table="SOLICITUD">
+        <id name="idSolicitud" type="java.lang.Integer">
+            <column name="IDSOLICITUD" />
+            <generator class="assigned" />
+        </id>
+        <property name="idUsuarioSolicitante" type="java.lang.Integer">
+            <column name="IDUSUARIOSOLICITANTE" />
+        </property>
+        <property name="idUsuarioAdmin" type="java.lang.Integer">
+            <column name="IDUSUARIOADMIN" />
+        </property>
+        <property name="fechaCreacionSolicitud" type="java.util.Date">
+            <column name="FECHACREACIONSOLICITUD" not-null="true"/>
+        </property>
+        <property name="estadoSolicitud" type="java.lang.Integer">
+            <column name="ESTADOSOLICITUD" />
+        </property>
+        <property name="fechaEvaluacionSolicitud" type="java.util.Date">
+            <column name="FECHAEVALUACIONSOLICITUD" />
+        </property>
+        <property name="justificacion" type="java.lang.String">
+            <column name="JUSTIFICACION" length="1000"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -21,5 +21,10 @@
 		<mapping resource="com/dao/mapping/Multa.hbm.xml"></mapping>
 		<mapping resource="com/dao/mapping/TipoDocumento.hbm.xml"></mapping>
 		<mapping resource="com/dao/mapping/TipoMulta.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/EstadoDispositivoDTO.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/EstadoSolicitudDTO.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/EstadoDispositivoDTO.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/SolicitudDTO.hbm.xml"></mapping>
+		<mapping resource="com/dao/mapping/TipoDispositivoDTO.hbm.xml"></mapping>
 	</session-factory>
 </hibernate-configuration>
